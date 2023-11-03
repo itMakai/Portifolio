@@ -1,0 +1,127 @@
+body{
+	background-color: teal;
+	color:aliceblue;
+	align-items: center;
+	justify-content: center;
+	/* display: flex; */
+	/* margin: 0; */
+	/* padding: 0; */
+}
+.nav-links{
+	/* background-color: black; */
+	align-items: center;
+	justify-content:flex-end;
+	height: 4vh;
+	display: inline-flex;
+	padding-left: 45%;
+}
+.links{
+	display: flex;
+}
+.contact,
+.skills,
+.achivements,
+.projects{
+	text-decoration: none;
+	margin: 10px;
+	font-weight: 900;
+	font-style: italic;
+}
+.image{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+.profile-container{
+	display: inline-block;
+}
+.my-profile{
+	display: inline-block;
+	/* background-color: blueviolet; */
+	border-radius: 50% 0%  50%;
+	padding: 5%;
+}
+figcaption{
+	/* align-items: center; */
+	padding: 10%;
+	display: inline-block;
+	/* background-color: aliceblue; */
+}
+.logo-container{
+	/* background-color: rgb(129, 128, 134); */
+	display: inline-block;
+	padding: 10%;
+	margin-top: 20px;
+	border-radius: 0 50% 0  ;
+}
+.X-logo,
+.linkedin-logo{
+	height: 30px;
+	display: inline-block;
+
+}
+.X-logo{
+	margin-left: 50px;
+}
+.skills-title{
+	margin: 2%;
+	font-size: x-large;
+	font-weight: bolder;
+	background-color:rgb(3, 81, 87);
+	display: inline-block;
+	padding: 3%;
+	border-radius: 50% 0;
+}
+.database{
+	display:inline-flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.database-skills-container{
+	display: inline-block;
+	margin-top: 12px;
+	color: rgb(227, 218, 228);
+	background-color: rgb(3, 81, 87);
+	padding: 5%;
+	border-radius: 30% 10% 30%;
+	cursor: grab;
+}
+.database-skills-container:hover{
+	color: red;
+	background-color: rgb(2, 37, 37);
+}
+.coding-skills-container{
+	display: inline-block;
+	margin-top: 30%px;
+	background-color: rgb(3, 81, 87);
+	padding: 4%;
+	border-radius:30% 10% 30%;
+	margin-left: 30px;
+	cursor: grab;
+}
+.coding-skills-container:hover{
+	color: red;
+	background-color: rgb(2, 37, 37);
+}
+.coding-title{
+	margin-top: 15px;
+}
+.skills-container{
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.other-skills-container{
+	display: inline-block;
+	margin-top: 30%px;
+	background-color: rgb(3, 81, 87);
+	padding: 5%;
+	border-radius:30% 10% 30%;
+	margin-left: 30px;
+	cursor: grab;
+}
+.other-skills-container:hover{
+	color: red;
+	background-color: rgb(2, 37, 37);
+}

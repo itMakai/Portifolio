@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>profile</title>
+</head>
+<body>
+	
+	<form action="" id="response">
+		<div>lets chart</div>
+		<input type="text" id="firstName" placeholder="enter your Name" required> <br>
+		<input type="text" id="lastName" placeholder="enter your last name" required> <br>
+		<input type="email" id="email" placeholder="Enter your email"> <br>
+		<textarea name="enter your response" id="textarea" cols="20" rows="5"></textarea> <br>
+		<button id="submit">submit</button>
+		
+	</form>
+	<script>
+		let response = document.getElementById("response");
+
+response.addEventListener("submit", (e)=> {e.preventDefault();
+
+	let firstName = document.getElementById("firstName");
+	let lastName = document.getElementById("lastName");
+	let email = document.getElementById("email");
+	let text = document.getElementById("textarea"); 
+
+	alert("Message sent successfully");
+	console.log(firstName.value,lastName.value,email.value,text.value);
+	
+	firstName.value = ""; 
+	lastName.value = ""; 
+	email.value = "";
+	text.value = "";
+	
+});
+
+	</script> 
+	
+</body>
+</html>
